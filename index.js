@@ -1,4 +1,6 @@
+require("dotenv/config")
 const express = require("express");
+
 const app = express();
 // yha humne apna router import kiya h 
 // jo book.routes.js me banaya h
