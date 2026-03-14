@@ -10,14 +10,14 @@ const controller = require('../controller/book.controller');
 // like bookRouter ya kuch or bhi de skte h but humne router hi rakh liya h
 router.get("/" , controller.getallbooks);
 
-// router.get('/:id' ,controller.getbookbyid);
+router.get('/:id' ,controller.getbookbyid);
+
+ router.post('/' , controller.createbook);
+router.delete('/:id' ,controller.deletebook);
 
 
-// router.delete('/:id' ,controller.deletebook);
 
 
-
-// router.post('/' , controller.createbook);
 
 
 
